@@ -10,7 +10,7 @@
  * sumZero([]); -> false
  * sumZero([-4, -2, 0, 2, 4]); -> [ [-4, 4], [-2, 2] ]
  */
-
+// This is example of multiple pointer pattern
 const sumZero = (numbers: number[]): number[][] | false => {
   if (!Array.isArray(numbers) || numbers.length === 0) return false;
 

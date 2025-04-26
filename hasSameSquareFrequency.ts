@@ -7,6 +7,7 @@
 // same([1,2,3], [1,9]) -> false
 // same([1,2,1], [4,4,1]) -> false
 
+// this is example of freequency pointer
 const hasSameSquareFrequency = (
   baseArray: number[],
   squaredArray: number[]

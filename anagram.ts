@@ -6,6 +6,8 @@
  * anagram("aabbcc","ddeeff") -> false
  * anagram("tiger","igert") -> true
  */
+
+// this is example of freequency pointer
 const anagrams = (str1: string, str2: string): boolean => {
   if (str1.trim().length !== str2.trim().length) return false;
 
