@@ -10,6 +10,8 @@
  * maxSubArraySum([4, 2], 3) -> -Infinity
  * maxSubArraySum([-1, -2, -3, -4], 2) -> -3
  *  */
+
+// problem is of type sliding window
 const maxSubArraySum = (numbers: number[], count: number): number => {
   // Handle edge case: if the array is smaller than the required count
   if (numbers.length < count) return -Infinity;
